@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+
+body{
+	font:400 16px/1.56 lato, sans-serif;
+	color:#3c4955;
+	background: #fff;
+	display: block;
+
+}
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-intro{
+	max-width: 1500px;
+	height: 2664px;
+	background:#eeeeee;
+	background-size: cover;
+}
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1480px;
+}
+.ba-logo{
+	font-family: Roboto;
+	color: #303030;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 27px;
+	text-align: left;
+}
+.ba-menu{
+	list-style: none;
+
+}
+.ba-menu li{
+	display: inline-block;
+
+}
+.ba-li{
+	margin-left: 29px;
+}
+.ba-menu a{
+	text-decoration: none;
+	font-family: Roboto;
+	color: #303030;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	list-style: none;
+
+}
+.ba-page-title{
+	font-family: Raleway;
+	color: #303030;
+	font-size: 150px;
+	font-weight: 900;
+	line-height: 150px;
+	text-align: left;
+
+}
+.ba-page-title-second{
+	font-family: Roboto;
+	color: #303030;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 36px;
+	text-align: left;
+}
+.ba-cont{
+	position: relative;
+	top: 50px;
+	left: 152px;
+}
+.ba-cont-two{
+	position: relative;
+	top: 0px;
+	left: 997px;
+
+}
+.ba-intro-content-first{
+	position: relative;
+	top: 0px;
+	left: 152px;
+
+}
+.ba-intro-content-second{
+	position: relative;
+	top: 0px;
+	left: 152px;
+
+}
+.ba-intro-content-page{
+	position: relative;
+	top: -574px;
+	left: 869px;
+
+}
+.ba-intro-project{
+	position: relative;
+	top: -480px;
+	left: 555px;
+}
+.ba-project{
+	font-family: Roboto;
+	color: #e10011;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+
+	text-decoration: none;
+}
+a:hover {
+    background: #786b59;
+    color: #ffe;
+   }
