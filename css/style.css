@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
-
+*{
+	box-sizing: border-box;
+}
 body{
 	font:400 16px/1.56 lato, sans-serif;
 	color:#3c4955;
@@ -51,14 +53,15 @@ textarea {
 }
 .ba-intro{
 	max-width: 1500px;
-	height: 2664px;
 	background:#eeeeee;
 	background-size: cover;
+	margin:0 auto;
 }
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
 	max-width: 1480px;
+	margin:0 auto;
 }
 .ba-logo{
 	font-family: Roboto;
