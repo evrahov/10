@@ -175,6 +175,7 @@ a:hover {
 }
 .ba-container-m-title{
 	font-family: Raleway;
+	background: url(../img/underline.png) no-repeat bottom;
 
 	font-size: 48px;
 	font-weight: 900;
@@ -182,51 +183,17 @@ a:hover {
 	text-align: center;
 }
 
-.ba-speakers{
-	padding-top: 40px;
 
 
-
-}
-.ba-beats{
-padding-left: 43px;
-padding-top: 40px;
-
-}
-.ba-tumblr{
-	padding-left: 43px;
-	padding-top: 43px;
-	padding-bottom: 70px
-
-}
-.ba-layer{
-	padding-top: 43px;
-	padding-bottom: 70px
-
-}
-.ba-shoes{
-	padding-left: 43px;
-	padding-top: 43px;
-	padding-bottom: 70px;
-
-}
 .ba-container-image{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:center;
 	align-content:center;
 }
-.ba-underline{
-text-align:center;
 
-}
-.ba-container-text{
-	line-height: 10px;
-}
-.ba-container-image a:hover{
-	background: red;
 
-}
+
 .ba-news-text{
 	font-family: Raleway;
 
@@ -280,5 +247,76 @@ footer p{
 	font-weight: 400;
 	line-height: 24px;/* Приближение из-за подстановки шрифтов */
 	text-align: center;
+
+}
+.ba-work img{
+	display: block;
+	width: 100%;
+}
+.ba-work{
+	font: 900 30px/1 Roboto, sans-serif ;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	display: block;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.ba-row + .ba-row{
+	margin-top: 35px;
+}
+.ba-work-description{
+	background: #e10011;
+	padding: 10px;
+	text-align: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	opacity: 0;
+}
+.ba-work:hover .ba-work-description{
+	opacity: 1;
+}
+
+}
+.ba-work-title{
+	margin: 0;
+}
+.ba-row{
+	margin-left: -35px;
+}
+
+
+[class*="ba-col-"]{
+	float: left;
+	padding-left: 35px;
+}
+.ba-col-3{
+	width: 33.3%;
+}
+.ba-col-6{
+	width: 66.6%;
+}
+
+.ba-content{
+	max-width: 1198px;
+	background-color: #fff;
+	margin: 0 auto 100px;
+	padding: 70px;
+}
+.ba-news{
+
+	display: flex;
+	position: absolute;
+
+
+
+
 
 }
