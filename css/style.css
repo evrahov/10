@@ -159,17 +159,19 @@ a:hover {
 .ba-container-m{
 	max-width: 1198px;
 	background-color: #fff;
-	margin: 0 auto 100px;
+	margin: 0 auto 0px;
 	padding-top: 80px;
+	padding-bottom: 80px;
 
 }
 .ba-paragraph-m{
 	font-family: Raleway;
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 24px;
 	text-align: center;
-	padding: 0px 323px 0px 323px;
+	margin-top: 0;
+	padding-top: 10px;
+
 
 
 }
@@ -179,6 +181,9 @@ a:hover {
 
 	font-size: 48px;
 	font-weight: 900;
+	padding-bottom: 20px;
+	margin-bottom:0px;
+
 
 	text-align: center;
 }
@@ -289,7 +294,7 @@ footer p{
 	margin: 0;
 }
 .ba-row{
-	margin-left: -35px;
+	margin-right:35px ;
 }
 
 
@@ -310,13 +315,8 @@ footer p{
 	margin: 0 auto 100px;
 	padding: 70px;
 }
-.ba-news{
-
-	display: flex;
-	position: absolute;
-
-
-
-
-
+.ba-container-text{
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 50px;
 }
